@@ -1,6 +1,6 @@
 FROM httpd:latest
 
-RUN apt-get updated && apt-get install -y --no-install-recommends curl && apt-get clean
+RUN apt-get update && apt-get install -y --no-install-recommends curl && apt-get clean
 
 EXPOSE 80
 
